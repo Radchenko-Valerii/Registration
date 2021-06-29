@@ -1,0 +1,55 @@
+.section-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  padding: 20px;
+}
+
+.header{
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 15px;
+}
+
+/* .header::before{
+  width: 100px;
+  height: 3px;
+  background-color: black;
+}
+
+.header::after{
+  width: 100px;
+  height: 3px;
+  background-color: black;
+} */
+
+.legend{
+width: 380px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.name, .email, .password{
+  height: 25px;
+}
+
+.name{
+  width: 175px;
+}
+
+.email, .password{
+  width: 372px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.btn{
+  width: 380px;
+}

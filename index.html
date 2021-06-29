@@ -9,54 +9,56 @@
     <title>Form</title>
   </head>
   <body>
-    <section class="section-one">
-      <h1 class="header">Register</h1>
-      <form  class="form" action="/" method="get"><legend class="legend">Create your account. It's free and only takes a minute.</legend>
-        <input
-          required
-          class="name"
-          type="text"
-          autofocus
-          name="firstname"
-          placeholder="First Name"
-          pattern="^[A-Z][a-z]{1,32}$"
-        />
-        <input
-          required
-          class="name"
-          type="text"
-          name="lastname"
-          placeholder="Last Name"
-          pattern="^[A-Z][a-z]{1,32}$"
-        />
-        <input
-          required
-          class="email"
-          type="email"
-          name="email"
-          placeholder="E-mail"
-          pattern="^[a-zA-Z0-9]{1,16}@[a-z]{1,9}\.[a-z]{1,4}$"
-        />
-        <input
-          required
-          class="password"
-          type="password"
-          name="password"
-          placeholder="Password"
-          pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
-        />
-        <input
-          required
-          class="password"
-          type="password"
-          name="password"
-          placeholder="Confirm password"
-          pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
-        />
-        <label >
-          <input type="checkbox" name="accepting" value="yes" /> I accept <a class="link" href="#">Terms of Use</a> & <a class="link" href="#">Privacy Police</a></label>
-          <button class="btn" type="submit">Submit</button>
-    </form>
-  </section>
+    <div class="bad-div">
+      <section class="section-one">
+        <h1 class="header">Register</h1>
+        <form  class="form" action="/" method="get"><legend class="legend">Create your account. It's free and only takes a minute.</legend>
+          <input
+            required
+            class="name"
+            type="text"
+            autofocus
+            name="firstname"
+            placeholder="First Name"
+            pattern="^[A-Z][a-z]{1,32}$"
+          />
+          <input
+            required
+            class="name"
+            type="text"
+            name="lastname"
+            placeholder="Last Name"
+            pattern="^[A-Z][a-z]{1,32}$"
+          />
+          <input
+            required
+            class="email"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            pattern="^[a-zA-Z0-9]{1,16}@[a-z]{1,9}\.[a-z]{1,4}$"
+          />
+          <input
+            required
+            class="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+            pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
+          />
+          <input
+            required
+            class="password"
+            type="password"
+            name="password"
+            placeholder="Confirm password"
+            pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
+          />
+          <label >
+            <input type="checkbox" name="accepting" value="yes" /> I accept <a class="link" href="#">Terms of Use</a> & <a class="link" href="#">Privacy Police</a></label>
+            <button class="btn" type="submit">Submit</button>
+      </form>
+    </section>
+    </div>
   </body>
 </html>

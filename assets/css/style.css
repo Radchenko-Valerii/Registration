@@ -1,3 +1,8 @@
+.bad-div{
+  display: flex;
+  justify-content: space-around;
+}
+
 .section-one{
   display: flex;
   flex-wrap: wrap;
@@ -10,22 +15,29 @@
 }
 
 .header{
+  width: 380px;
   font-weight: bolder;
   font-size: x-large;
   padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* .header::before{
-  width: 100px;
-  height: 3px;
+.header::before, .header::after{
+  content: '';
+  width: 400px;
+  border: 1px solid;
   background-color: black;
 }
+
+.header::before{
+  margin-right: 10px;
+} 
 
 .header::after{
-  width: 100px;
-  height: 3px;
-  background-color: black;
-} */
+  margin-left: 10px;
+}
 
 .legend{
 width: 380px;

@@ -47,7 +47,7 @@ font-size: small;
 }
 
 .name, .email, .password{
-  height: 25px;
+  height: 30px;
 }
 
 .name{
@@ -69,6 +69,7 @@ font-size: small;
   text-decoration: none;
   color: rgb(0, 130, 134);
 }
+
 
 .link:hover{
   color: rgb(0, 189, 25);
